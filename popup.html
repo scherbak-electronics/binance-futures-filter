@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binance Volatility Sorter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Binance Volatility Sorter</h1>
+<div>
+    <label for="filterType">Filter by:</label>
+    <select id="filterType">
+        <option value="volume">Volume</option>
+        <option value="marketCap">Market Cap</option>
+    </select>
+    <input type="number" id="filterValue" placeholder="Enter filter value" />
+    <button id="fetchData">Fetch and Sort Data</button>
+</div>
+<ul id="assetList"></ul>
+<script src="script.js"></script>
+</body>
+</html>

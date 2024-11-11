@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+#assetList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#assetList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
